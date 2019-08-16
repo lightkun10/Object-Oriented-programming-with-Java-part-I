@@ -17,13 +17,11 @@ public class PrintingLikeBoss {
 	}
 	
 	public static void printTriangle(int size) { // 4
-		// int amount = size-1;	
 		int i = 1;
 		while(i <= size) {
 			printWhiteSpace(size-i);
 			printStars(i);
 			i++;
-			//size--;
 		}
 	}
 	
@@ -45,14 +43,8 @@ public class PrintingLikeBoss {
 	}
 
     public static void main(String[] args) {
-		//printTriangle(4);
-		//System.out.println("\n---");
-		//xmasTree(10);
-		
 		printTriangle(4);
         System.out.println("---");
-        xmasTree(4);
-        // System.out.println("---");
-        // xmasTree(40);
+        xmasTree(12);
     }
 }
