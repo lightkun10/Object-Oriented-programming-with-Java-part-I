@@ -2,5 +2,5 @@
 University of Helsinki’s massive open online course (MOOC) on object-oriented programming, part1.
 
 * Execute the program
-  * java -cp . <InsertFileNameHere>.javaa
+  * java -cp . (InsertFileNameHere).javaa
     on cmd
