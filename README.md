@@ -3,4 +3,4 @@ University of Helsinki’s massive open online course (MOOC) on object-oriented 
 
 * Execute the program
   * java -cp . (InsertFileNameHere).java
-    on cmd
+  * on command line
