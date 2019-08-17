@@ -43,8 +43,8 @@ public class PrintingLikeBoss {
 	}
 
     public static void main(String[] args) {
-		printTriangle(4);
-        System.out.println("---");
-        xmasTree(12);
+		//printTriangle(4);
+        //System.out.println("---");
+        xmasTree(40);
     }
 }
