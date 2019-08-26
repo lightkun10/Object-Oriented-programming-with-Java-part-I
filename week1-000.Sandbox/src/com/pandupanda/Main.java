@@ -6,31 +6,24 @@ import java.util.Scanner;
 
 public class Main {
 	// MAIN PROGRAM
-
-	public static void print(ArrayList<String> x) {
-		for (String word : x) {
-			System.out.println(word);
-		}
-	}
-
 	public static void main(String[] args) {
-		ArrayList<String> programmingLanguages = new ArrayList<String>();
-		programmingLanguages.add("Java");
-		programmingLanguages.add("Python");
-		programmingLanguages.add("Ruby");
-		programmingLanguages.add("C++");
+		ArrayList<Integer> numbers = new ArrayList<Integer>();
+		numbers.add(4);
+		numbers.add(3);
+		numbers.add(7);
+		numbers.add(3);
 
-		ArrayList<String> countries = new ArrayList<String>();
-		countries.add("Finland");
-		countries.add("Indonesia");
-		countries.add("German");
+		System.out.println(numbers); // prints [4,3,7,3]
 
-		print(programmingLanguages);
-		System.out.println();
-		print(countries);
+		removeFirst(numbers);
+
+		System.out.println(numbers); // prints [3,7,3]
 	}
 
 	// METHOD
+	public static void removeFirst(ArrayList<Integer> list) {
+		list.remove(0); // removes the number from index 0
+	}
 
 }
 
